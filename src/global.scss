@@ -1,0 +1,10 @@
+$ColorCharbon: #101820FF;
+$ColorYellow:#FEE715FF;
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width:#{$width}){
+        @content
+    }
+}
